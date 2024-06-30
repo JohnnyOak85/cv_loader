@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+
+body {
+  background: linear-gradient(#8b0000, #000000);
+  min-height: 100vh;
+  font-family: "UnifrakturCook", sans-serif;
+  text-align: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  user-select: none;
+  color: #cfb53b;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1,
+h2 {
+  text-shadow: 2px 2px 4px #000;
+}
+
+button {
+  display: inline-block;
+  margin: 0.5em;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  background-color: #b22222;
+  color: #cfb53b;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px #000;
+  transition: background-color 0.3s;
+  font-family: "UnifrakturCook", sans-serif;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #ff4500;
+  color: #ffd700;
+}
+
+.tab.active {
+  background-color: #ff4500;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-right: 20px;
+  transition: color 0.5s;
+}
+
+label:hover {
+  color: #ffd700;
+}
+
+label.active {
+  color: #b22222;
+}
+
+label.active:hover {
+  color: #ff4500;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+
+.stats {
+  list-style: none;
+}
